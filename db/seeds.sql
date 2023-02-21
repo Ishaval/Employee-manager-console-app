@@ -14,12 +14,12 @@ INSERT INTO departments (id, name) VALUES
   (7, 'Legal Team Lead', 250000),
   (8, 'Lawyer', 190000);
 
-INSERT INTO employees (first_name, last_name,  manager_id) VALUES
-  ('John', 'Doe', NULL),
-  ('Jane', 'Smith', 1),
-  ('Bob', 'Johnson', NULL),
-  ('Sarah', 'Williams', 3),
-  ('Mike', 'Brown', NULL),
-  ('Emily', 'Davis', 5),
-  ('Tom', 'Wilson', NULL),
-  ('Alex', 'Taylor', 7);
+INSERT INTO employees (id, first_name, last_name,  manager_id) VALUES
+  (1, 'John', 'Doe', NULL),
+  (2, 'Mike', 'Chan', 1),
+  (3, 'Ashley', 'Rodriguez', NULL),
+  (4, 'Kevin', 'Tupik', 3),
+  (5, 'Kunal', 'Singh', NULL),
+  (6, 'Malia', 'Brown', 5),
+  (7, 'Sarah', 'Lourd', NULL),
+  (8, 'Tom', 'Allen', 7);
