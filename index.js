@@ -6,7 +6,7 @@ import cTable from "console.table";
 var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : 'Killerqueen1909*',
+  password : 'Your_password',
   database : 'resources_db'
 });
  
